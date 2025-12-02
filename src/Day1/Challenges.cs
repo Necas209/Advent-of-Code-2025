@@ -2,7 +2,7 @@ namespace Day1;
 
 public static class Challenges
 {
-    public record struct Rotation(int Amount, int Direction)
+    public readonly record struct Rotation(int Amount, int Direction)
     {
         public static Rotation Parse(ReadOnlySpan<char> s)
         {
