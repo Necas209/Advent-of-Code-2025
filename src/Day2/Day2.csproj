@@ -8,13 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="input.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="DotNetExtensions" Version="5.6.0" />
+        <PackageReference Include="DotNetExtensions" Version="5.6.0"/>
     </ItemGroup>
 
 </Project>

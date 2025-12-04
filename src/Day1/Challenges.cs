@@ -24,6 +24,7 @@ public static class Challenges
             {
                 current += 100;
             }
+
             if (current == 0)
             {
                 zeroCount++;
