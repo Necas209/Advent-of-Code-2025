@@ -4,8 +4,9 @@
     <File Path="..\README.md" />
     <File Path="..\.gitignore" />
   </Folder>
-  <Project Path="Day1/Day1.csproj" Type="Classic C#" />
-  <Project Path="Day2/Day2.csproj" Type="Classic C#" />
-  <Project Path="Day3/Day3.csproj" Type="Classic C#" />
-  <Project Path="UnitTests/UnitTests.csproj" />
+  <Project Path="Day1/Day1.csproj" Type="C#" />
+  <Project Path="Day2/Day2.csproj" Type="C#" />
+  <Project Path="Day3/Day3.csproj" Type="C#" />
+  <Project Path="Day4/Day4.csproj" Type="C#" />
+  <Project Path="UnitTests/UnitTests.csproj" Type="C#" />
 </Solution>
