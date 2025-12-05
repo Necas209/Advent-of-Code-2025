@@ -21,4 +21,8 @@
       <ProjectReference Include="..\Day5\Day5.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    </ItemGroup>
+
 </Project>
