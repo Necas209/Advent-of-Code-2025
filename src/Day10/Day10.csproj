@@ -8,13 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="dotnetextensions" Version="5.11.0" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Update="input.txt">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DotNetExtensions" Version="5.11.0" />
+      <PackageReference Include="Google.OrTools" Version="9.14.6206" />
     </ItemGroup>
 
 </Project>
